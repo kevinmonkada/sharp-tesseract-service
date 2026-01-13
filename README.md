@@ -2,11 +2,26 @@
 
 # 🖼️ Sharp OCR Service
 
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-20-green)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
 Microservicio Docker para optimización de imágenes + OCR (Tesseract) para workflow de n8n.
 
 **Versión:** 2.1.0  
 **Stack:** Node.js 20 + Sharp + Tesseract + Express  
 **Use case:** Procesar capturas Telegram de transacciones bancarias (Nequi, Nu, Daviplata, etc.)
+
+---
+
+## ✨ **Features**
+
+- **Optimización Inteligente:** Reduce tamaño de imágenes sin perder calidad para OCR.
+- **OCR Avanzado:** Usa Tesseract con idiomas español e inglés.
+- **Procesamiento de Texto:** Extrae montos, fechas, referencias, estados y merchants automáticamente.
+- **API RESTful:** Endpoint simple para integración con n8n u otros workflows.
+- **Docker Ready:** Fácil despliegue en contenedores.
+- **Health Checks:** Monitoreo integrado.
 
 ---
 
@@ -469,4 +484,26 @@ cp ~/sharp-service/sharp-service.js ~/sharp-service/sharp-service.js.backup-$(da
 
 **Última actualización:** 2026-01-13  
 **Autor:** Expense Assistant Team  
-**License:** MIT
+
+---
+
+## 🤝 **Contributing**
+
+¡Contribuciones son bienvenidas! Para contribuir:
+
+1. Fork el repositorio.
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcion`).
+3. Commit tus cambios (`git commit -m 'Agrega nueva funcion'`).
+4. Push a la rama (`git push origin feature/nueva-funcion`).
+5. Abre un Pull Request.
+
+**Guías:**
+- Sigue el estilo de código existente.
+- Agrega tests si es posible.
+- Actualiza el README si cambias la API.
+
+---
+
+## 📄 **License**
+
+Este proyecto está bajo la Licencia MIT. Ver [LICENSE](LICENSE) para más detalles.

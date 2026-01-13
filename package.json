@@ -1,6 +1,6 @@
 {
   "name": "sharp-service",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "Image optimization microservice for n8n",
   "main": "sharp-service.js",
   "scripts": {
