@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+npm-debug.log
+yarn.lock
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode
+.idea
+*.sublime-project
+
+# Tests
+tests
+coverage
+
+# Docs
+README.md
+CHANGELOG.md
+
+# Temporary
+.tmp
+*.swp
+logs/
